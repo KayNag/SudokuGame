@@ -8,12 +8,12 @@
  ! Visit http://www.pragmaticprogrammer.com/titles/eband for more book information.
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-      package="org.example.sudoku"
+      package="kay.sudoku"
       android:versionCode="1"
       android:versionName="1.0">
     <application android:icon="@drawable/icon"
           android:label="@string/app_name">
-        <activity android:name=".Sudoku"
+        <activity android:name="kay.sudoku.Sudoku"
               android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,18 +21,18 @@
             </intent-filter>
         </activity>
         
-        <activity android:name=".About"
+        <activity android:name="kay.sudoku.About"
               android:label="@string/about_title"
               android:theme="@android:style/Theme.Dialog">
         </activity>
         
         
-        <activity android:name=".Prefs"
+        <activity android:name="kay.sudoku.Prefs"
               android:label="@string/settings_title">
         </activity>
         
         
-        <activity android:name=".Game"
+        <activity android:name="kay.sudoku.Game"
               android:label="@string/game_title"/>
         
     </application>

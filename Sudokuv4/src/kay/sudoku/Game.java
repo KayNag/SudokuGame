@@ -1,12 +1,7 @@
-/***
- * Excerpted from "Hello, Android!",
- * published by The Pragmatic Bookshelf.
- * Copyrights apply to this code. It may not be used to create training material, 
- * courses, books, articles, and the like. Contact us if you are in doubt.
- * We make no guarantees that this code is fit for any purpose. 
- * Visit http://www.pragmaticprogrammer.com/titles/eband for more book information.
-***/
-package org.example.sudoku;
+
+package kay.sudoku;
+
+
 
 import android.app.Activity;
 import android.app.Dialog;
@@ -19,7 +14,7 @@ public class Game extends Activity {
    private static final String TAG = "Sudoku";
 
    public static final String KEY_DIFFICULTY =
-      "org.example.sudoku.difficulty";
+      "kay.sudoku.difficulty";
    
    private static final String PREF_PUZZLE = "puzzle" ;
    
